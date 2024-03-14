@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belt-Exam</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Navigation - Links (top1/2) -->
+        <nav class="nav-main">
+            <div class="nav-links-top d-flex">
+                <div class="nav-logo d-flex">
+                    <img class="heart-img" src="./assets/heart-light.png" alt="heart-logo">
+                    <h1 class="pet-shelter">Pet Shelter</h1>
+                </div>
+                <ul class="links d-flex">
+                    <li>Find a Pet</li>
+                    <li>About</li>
+                    <li> <button onclick="removeElement(this)" id="donate"><strong>Donate</strong></button></li>
+                </ul>
+            </div>
+            <!-- Nav - Search (bottom1/2) -->
+            <ul class="search-title d-flex">
+                <li class="select-search-title">I am looking for a ...</li>
+                <li class="location-search-title">in or near...</li>
+            </ul>
+            <div class="nav-search-bottom d-flex">
+                <img class="paw-print-img" src="./assets/paw-light.png" alt="paw-print-image">
+                <select onchange="choosePet(this)" name="pet-selection-option" id="pet-selection-option">
+                    <option selected hidden disabled>Any pet</option>
+                    <option value="Dog">Dog</option>
+                    <option value="Cat">Cat</option>
+                    <option value="Ferret">Ferret</option>
+                    <option value="Sugar-glider">Sugar Glider</option>
+                </select>
+                <img class="location-pin-img" src="./assets/pin-light.png" alt="">
+                <input class="city-zip" type="text" placeholder="City or Zip Code">
+                <button class="find-button">Find your new best friend!</button>
+            </div>
+        </nav>
+        <!-- Navigation - End -->
+        <!-- Main Coantent -->
+        <main class="main-content d-flex">
+            <!-- Listing1 -->
+            <div class="listing-1 d-flex">
+                <img class="pepper-photo" src="./assets/pepper.jpg" alt="pepper-img">
+                <p class="name1"><strong>Pepper</strong></p>
+                <p class="about1">Pepper is a slightly shy grey tabby, but she really loves showing her human affection.
+                </p>
+                <div class="pettings1 d-flex">
+                    <p class="pettings-pepper"><span id="pettings-num-pepper">3</span> petting(s)</p>
+                    <button class="pet-pepper" onclick="petIncrease1()"><strong>Pet Pepper</strong></button>
+                </div>
+            </div>
+            <!-- Listing - 2 -->
+            <div class="listing-2 d-flex">
+                <img class="bruce-photo" src="./assets/bruce.jpg" alt="bruce-img">
+                <p class="name2"><strong>Bruce</strong></p>
+                <p class="about2">Bruce is a loyal companion. He loves long walks and cold weather.</p>
+                <div class="pettings2 d-flex">
+                    <p class="pettings-bruce"><span id="pettings-num-bruce">5</span> petting(s)</p>
+                    <button class="pet-bruce" onclick="petIncrease2()"><strong>Pet Bruce</strong></button>
+                </div>
+            </div>
+            <!-- Listing - 3 -->
+            <div class="listing-3 d-flex">
+                <img class="oscar-photo" src="./assets/oscar.jpg" alt="oscar-img">
+                <p class="name3"><strong>Oscar</strong></p>
+                <p class="about3">Oscar iis bright, energetic and firendly. He is looking for a good home. .</p>
+                <div class="pettings3 d-flex">
+                    <p class="pettings-oscar"><span id="pettings-num-oscar">8</span> petting(s)</p>
+                    <button class="pet-oscar" onclick="petIncrease3()"><strong>Pet Oscar</strong></button>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>

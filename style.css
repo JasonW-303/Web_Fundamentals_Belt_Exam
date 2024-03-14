@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:'Balsamiq Sans', sans-serif;
+}
+
+/* Utilitie Class - Start */
+.d-flex {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.listing {
+    margin-top: 15px;
+    align-self: flex-start;
+    width: fit-content;
+    height: 150px;
+    padding: 10px;
+    background-color: #eeeeee;
+    border-radius: 12px;
+}
+
+.pet-photo {
+    padding: 12px;
+    height: 150px;
+}
+
+.name {
+    margin-top: 10px;
+    align-self: flex-start;
+    margin-left: 10px;
+    font-size: 2rem;
+}
+
+.about {
+    width: 330px;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: -90px;
+}
+
+.pettings {
+    flex-direction: column;
+}
+
+.pet-name {
+    width: 180px;
+    padding: 3px;
+    margin-top: 30px;
+    background-color: #15cfd1;
+    color: white;
+    border: 2px solid black;
+    border-radius: 3px;
+    box-shadow: 2px 2px 0px black;
+    cursor: pointer;
+}
+/* Utilitie Class - End */
+
+
+/* Document Container */
+.container {
+    min-width: 1000px;
+    height: 1000px;
+}
+
+/* Nav */
+
+.nav-main {
+    height: 200px;
+    padding: 20px;
+    background-color: #119b9d;
+    border: 3px solid black;
+    border-radius: 2px;
+}
+
+.nav-links-top {
+    height: 60px;
+}
+
+.nav-logo {
+    color: white;
+    font-size: 2rem;
+    gap: 10px;
+    cursor: pointer;
+    margin-right: 150px;
+}
+
+.heart-img {
+    margin-top: -8px;
+}
+
+.links {
+    display: flex;
+    font-size: 1.4rem;
+    list-style: none;
+    gap: 30px;
+}
+
+#donate {
+    width: 90px;
+    height: 35px;
+    background-color: white;
+    color: #9900FF;
+    font-size: 1.5rem;
+    border: 2px solid #9900FF;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 2px 2px 5px black;
+    margin-top: -5px;
+    cursor: pointer;
+}
+
+/* Nav - Bottom half (Search) */
+.search-title {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: -300px;
+    margin-right: 300px;
+    list-style: none;
+    color: white;
+}
+
+.select-search-title {
+    margin-left: -170px;
+}
+
+.location-search-title {
+    margin-left: 90px;
+}
+
+.nav-search-bottom {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: -70px;
+    margin-top: 0px;
+}
+
+.paw-print-img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+#pet-selection-option {
+    width: 150px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.location-pin-img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.city-zip {
+    width: 150px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-right: 100px;
+}
+
+.find-button {
+    width: 240px;
+    height: 30px;
+    padding: 5px;
+    background-color: #9900FF;
+    border: 2px solid black;
+    border-radius: 3px;
+    color: white;
+    box-shadow: 3px 3px 0px black;
+    margin-left: 200px;
+}
+
+/* Main - Start */
+.main-content {
+    flex-direction: column;
+    align-items: center;
+}
+    /* Listing-1 */
+.listing-1 {
+    margin-top: 20px;
+    width: fit-content;
+    height: 150px;
+    padding: 10px;
+    background-color: #eeeeee;
+    border-radius: 12px;
+}
+
+.pepper-photo {
+    padding: 12px;
+    height: 150px;
+}
+
+.name1 {
+    margin-top: 10px;
+    align-self: flex-start;
+    margin-left: 10px;
+    font-size: 2rem;
+}
+
+.about1 {
+    width: 330px;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: -105px;
+}
+
+.pettings1 {
+    flex-direction: column;
+}
+
+.pet-pepper {
+    width: 180px;
+    padding: 3px;
+    margin-top: 30px;
+    background-color: #15cfd1;
+    color: white;
+    border: 2px solid black;
+    border-radius: 3px;
+    box-shadow: 2px 2px 0px black;
+    cursor: pointer;
+}
+    /* listing - 2 */
+    .listing-2 {
+        margin-top: 10px;
+        width: fit-content;
+        height: 150px;
+        padding: 10px;
+        background-color: #eeeeee;
+        border-radius: 12px;
+    }
+    
+    .bruce-photo {
+        padding: 12px;
+        height: 150px;
+    }
+    
+    .name2 {
+        margin-top: 10px;
+        align-self: flex-start;
+        margin-left: 10px;
+        font-size: 2rem;
+    }
+    
+    .about2 {
+        width: 330px;
+        margin-top: 50px;
+        margin-right: 50px;
+        margin-left: -90px;
+    }
+    
+    .pettings2 {
+        flex-direction: column;
+    }
+    
+    .pet-bruce {
+        width: 180px;
+        padding: 3px;
+        margin-top: 30px;
+        background-color: #15cfd1;
+        color: white;
+        border: 2px solid black;
+        border-radius: 3px;
+        box-shadow: 2px 2px 0px black;
+        cursor: pointer;
+    }
+
+    /* Listing - 3 */
+
+    .listing-3 {
+        margin-top: 10px;
+        width: fit-content;
+        height: 150px;
+        padding: 10px;
+        background-color: #eeeeee;
+        border-radius: 12px;
+    }
+    
+    .oscar-photo {
+        padding: 12px;
+        height: 150px;
+    }
+    
+    .name3 {
+        margin-top: 10px;
+        align-self: flex-start;
+        margin-left: 10px;
+        font-size: 2rem;
+    }
+    
+    .about3 {
+        width: 330px;
+        margin-top: 50px;
+        margin-right: 50px;
+        margin-left: -90px;
+    }
+    
+    .pettings3 {
+        flex-direction: column;
+    }
+    
+    .pet-oscar {
+        width: 180px;
+        padding: 3px;
+        margin-top: 30px;
+        background-color: #15cfd1;
+        color: white;
+        border: 2px solid black;
+        border-radius: 3px;
+        box-shadow: 2px 2px 0px black;
+        cursor: pointer;
+    }
+
+/* Main End */
